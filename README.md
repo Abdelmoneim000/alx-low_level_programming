@@ -1,1 +1,1 @@
-# alx-low_level_programming
+# New project for the C programming language
