@@ -3,7 +3,7 @@
 /**
  * main - Prints all numbers in base 10 from 0 to 9 followd by a new line
  *
- * Result: Always return 0.
+ * Result: Always 0. (Success)
  */
 
 int main(void)
