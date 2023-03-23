@@ -6,8 +6,6 @@
  * @b: second integer
  * @c: third integer
  * Return: largest number
- * this function is returning c sometimes
- * when a is equal to be b and greater than c
  */
 
 int largest_number(int a, int b, int c)
