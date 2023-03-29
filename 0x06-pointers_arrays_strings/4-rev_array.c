@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - reverse array of string
- * @: pointer to an array
+ * @a: pointer to an array
  * @n: integer parameter
  * Return: void
  */
