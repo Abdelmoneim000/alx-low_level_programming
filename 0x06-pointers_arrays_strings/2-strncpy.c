@@ -5,6 +5,7 @@
  * _strncpy - copy a string into another array of string
  * @dest: array of string to be modified
  * @src: array of string to be copied
+ * @n: number of bytes
  * Return: dest array after modification
  */
 
@@ -17,7 +18,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 	}
 
-	for (; i <n; i++)
+	for (; i < n; i++)
 	{
 		dest[i] = '\0';
 	}
