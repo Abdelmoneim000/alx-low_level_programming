@@ -5,8 +5,9 @@
  *
  * Return: Always 0.
  */
-int main(void)
+char main(void)
 {
-    print_all("ceis", 'B', 3, "stSchool");
-    return (0);
+    int i = 11;
+    printf("Hello world\n");
+    return(i);
 }
