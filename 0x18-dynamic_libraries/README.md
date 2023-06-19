@@ -1,0 +1,3 @@
+# dynamic libraries
+:wq
+c
