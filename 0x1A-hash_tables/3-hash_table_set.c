@@ -17,7 +17,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
         return 0;
     }
 
-    index = hash_djb2(key) % ht->size;
+    index = hash_djb2((const unsigned char *)key) % ht->size;
 
     current_node = ht->array[index];
     while (current_node != NULL)
