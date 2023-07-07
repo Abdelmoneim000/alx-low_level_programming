@@ -18,7 +18,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
     {
         return (NULL);
     }
-    index = hash_djb2(key) % 10;
+    index = hash_djb2((const unsigned char *)key) % 10;
     if (index >= ht->size)
     {
         return (NULL);
