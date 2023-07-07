@@ -1,3 +1,1 @@
 # dynamic libraries
-:wq
-c
