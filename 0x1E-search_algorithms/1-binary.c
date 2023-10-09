@@ -1,5 +1,15 @@
 #include "search_algos.h"
 
+/**
+ * print_arr - print the sub array after
+ * devision
+ *
+ * @array: input sub-array
+ * @left: the start pointer of the sub-array
+ * from left.
+ * @right: the end pointer to the sub-array.
+ */
+
 void print_arr(int *array, int *left, int *right)
 {
 	int i;
@@ -16,6 +26,16 @@ void print_arr(int *array, int *left, int *right)
 	}
 	printf("\n");
 }
+
+/**
+ * binary_search - calls to binary_search to return
+ * the index of the number
+ *
+ * @array: input array
+ * @size: size of the array
+ * @value: value to search in
+ * Return: index of the number
+ */
 
 int binary_search(int *array, size_t size, int value)
 {
